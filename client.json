@@ -1,6 +1,7 @@
 {
-  "client_id": "https://cdn.jsdelivr.net/gh/adityaneelamraju-hai/cursor-sumo-cimd@main/client.json",
-  "client_name": "Cursor (mcp-remote)",
+  "client_id": "https://adityaneelamraju-hai.github.io/cursor-sumo-cimd/client.json",
+  "client_name": "Cursor",
+  "client_uri": "https://adityaneelamraju-hai.github.io",
   "redirect_uris": [
     "http://localhost:3334/oauth/callback"
   ],
@@ -11,6 +12,5 @@
   "response_types": [
     "code"
   ],
-  "token_endpoint_auth_method": "none",
-  "scope": "viewAlerts viewLibrary manageLibrary viewPartitions viewFieldExtractionRules viewFields runLogSearch viewCse cseManageInsightAssignee cseManageInsightStatus cseViewRules cseManageRules viewMonitorsV2 runMetricsQuery viewCollectors manageFields manageFieldExtractionRules contentAdmin manageApps viewConnections viewScheduledViews manageScheduledViews managePartitions manageS3DataForwarding viewUsersAndRoles manageUsersAndRoles manageMonitorsV2 adminMonitorsV2 viewSlos manageSlos"
+  "token_endpoint_auth_method": "none"
 }
